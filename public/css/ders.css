@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#kutukapsa {
+    display: flex;
+    display: row;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid yellow;
+    background: rgba(255, 0, 0, 0.1);
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+div.kutu {
+    display: flex;
+    display: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background: #92B901;
+    border: 3px dotted blue;
+}
+
+div.kutu2 {
+    width: 50%;
+    height: 50%;
+    background: rgb(100, 200, 245);
+    border: 2px dashed red;
+}
+
+div#kutukapsa:hover div.kutu2 {
+    transform: rotate(30deg);
+}
