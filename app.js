@@ -36,9 +36,9 @@ app.get('/flex', (req, res) => {
         layout: 'flexlayout.hbs'
     });
 });
-app.get('/animasyon2', (req, res) => {
-    res.render('oynayangoz', {
-        layout: "oynayangozl.hbs"
+app.get('/dalgaliyuvarlak', (req, res) => {
+    res.render('dalgaliyuvarlak', {
+        layout: "dalgaliyuvarlakl.hbs"
     });
 });
 app.get('/ders', (req, res) => {
