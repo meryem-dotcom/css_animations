@@ -22,11 +22,11 @@ div.loader {
 div.loader span {
     position: absolute;
     display: block;
-    border: 2px solid #fff;
+    border: 4px solid #fff;
     box-sizing: border-box;
     border-radius: 50%;
     transform: translateZ(-100px);
-    animation: animate 3s ease-in-out infinite;
+    animation: animate 4s ease-in-out infinite;
 }
 
 @keyframes animate {
@@ -76,7 +76,7 @@ div.loader span:nth-child(5) {
     left: 40px;
     right: 40px;
     bottom: 40px;
-    animation-delay: 1s;
+    animation-delay: 1.0s;
 }
 
 div.loader span:nth-child(6) {

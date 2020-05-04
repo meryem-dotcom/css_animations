@@ -51,6 +51,12 @@ app.get('/yukleniyor', (req, res) => {
         layout: "yuklelayout.hbs"
     });
 });
+app.get('/cloud', (req, res) => {
+    res.render('cloud', {
+        layout: "cloudlayout.hbs"
+    });
+});
+
 
 
 app.listen(3022, () => {
