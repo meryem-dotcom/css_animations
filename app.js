@@ -56,6 +56,21 @@ app.get('/cloud', (req, res) => {
         layout: "cloudlayout.hbs"
     });
 });
+app.get('/sutsisesi', (req, res) => {
+    res.render('sutsisesi', {
+        layout: "sutsisesil.hbs"
+    });
+});
+app.get('/blur', (req, res) => {
+    res.render('blur', {
+        layout: "blurl.hbs"
+    });
+});
+app.get('/neon_text', (req, res) => {
+    res.render('neon_text', {
+        layout: "neon_textl"
+    });
+})
 
 
 
